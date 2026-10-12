@@ -1,13 +1,41 @@
 # Aprendiendo Git & Github
-. Estos son los pasos para iniciar Git
+- Estos son los pasos para iniciar Git
 ## Paso 1
 .Inicializar el nuevo repositorio
 ...
-git init
+- git init
 ...
 
+## Paso 2
+- Enviar los nuevos archivos, o archivos modificados al área de preparación
+
+...
+
+git add index.html
+
+git add .
+
+...
+- El área de preparación es donde se preparan los cambios
+
+## Paso 3
+
+- Registrar una descripción del cambio realizado
+
+- git commit -m "proyecto base"
+
+# Github
+...
+
+git remote add origin https://github.com/JuanMarco1960/landing-page-plataforma-ventas.git
+...
+
+Enviar los cambios al repositorio remoto
+
+git push origin master (o main)
 
 
 
+-------
 ### EJEMPLO
 .Copiar el archivo (.env.example) a (.env) y actualizar credenciales
